@@ -1,0 +1,5 @@
+Flask==0.10.1
+Coffeescript==1.0.8
+requests==2.0.1
+pyScss==1.2.0.post3
+docopt==0.6.1
