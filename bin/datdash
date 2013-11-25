@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+
+"""
+DatDash!
+
+Usage:
+    datdash new <dashboard_name>
+    datdash start <dashboard_name>
+Options:
+    -h --help Show this screen.
+
+"""
+from docopt import docopt
+
+from datdash.commands import create_new_dashboard
+from datdash.commands import start_dashboard
+
+
+if __name__ == '__main__':
+    arguments = docopt(__doc__)
+    dashboard_name = arguments.get('<dashboard_name>')
+
+    if arguments.get('new'):
+        create_new_dashboard(dashboard_name)
+    elif arguments.get('start'):
+        start_dashboard(dashboard_name)
+
