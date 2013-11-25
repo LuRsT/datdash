@@ -4,8 +4,9 @@
 DatDash!
 
 Usage:
-    datdash new <dashboard_name>
-    datdash start <dashboard_name>
+    datdash new
+    datdash start
+
 Options:
     -h --help Show this screen.
 

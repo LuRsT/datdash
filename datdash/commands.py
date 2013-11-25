@@ -17,6 +17,6 @@ def create_new_dashboard(dashboard_name):
 
 def start_dashboard(dashboard_name):
     sys.path.append('.')
-    exec("import %s as app" % DATDASH_APP_NAME)
+    exec("import {} as app".format(DATDASH_APP_NAME))
     app.run(datdash_app, event_handler)
 
