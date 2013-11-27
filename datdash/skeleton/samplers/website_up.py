@@ -1,4 +1,4 @@
-from pydashie.dashie_sampler import DatDashSampler
+from datdash.datdash_sampler import DatDashSampler
 
 import requests
 

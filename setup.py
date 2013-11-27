@@ -27,7 +27,6 @@ setup(
         'Flask',
         'CoffeeScript',
         'requests',
-        'Flask-Sockets',
         'pyScss',
         'docopt',
         'pyScss',
